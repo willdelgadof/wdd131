@@ -66,3 +66,17 @@ body {
   ul li {
     margin-bottom: 10px; 
   }
+
+.dark {
+    background-color: #333; 
+    color: white; 
+}
+
+.dark h2 {
+    color: #99CDEE; 
+}
+
+.dark .logo {
+    content: url('images/byui-logo_white.png'); 
+}
+
