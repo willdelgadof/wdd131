@@ -1,82 +1,115 @@
 body {
-    font-family: "Times New Roman", Times, serif;
-    font-size: 20px;
-    line-height: 1.5;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-  }
-  
-  header.title {
-    margin-bottom: 20px;
-  }
-  
-  h1 {
-    letter-spacing: 3px;
-    text-transform: uppercase;
-    font-size: 32px;
-  }
-  
-  h2 {
-    color: #006EB6;
-    font-size: 14px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-  }
-  
-  main {
-    margin: 0 auto;
-    max-width: 600px;
-    text-align: left;
-  }
-  
-  h3 {
-    margin-top: 20px;
-    font-size: 22px;
-    text-transform: uppercase;
-  }
-  
-  ol.does-list {
-    margin: 20px ;
-    padding-left: 20px;
-    list-style-type: decimal;
-}
-  
-  footer {
-    margin-top: 30px;
-    padding: 20px 0;
-  }
-  
-  footer img {
-    width: 150px;
-    max-width: 100%;     
-    height: auto;
-  }
-  
-  ol.does-list li {
-    margin-bottom: 10px; 
-  }
-  
-  ul {
-    margin: 20px 0;
-    padding-left: 20px;
-    list-style-type: disc;
-  }
-  
-  ul li {
-    margin-bottom: 10px; 
-  }
-
-.dark {
-    background-color: #333; 
-    color: white; 
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: #fff;
+  color: #000;
 }
 
-.dark h2 {
-    color: #99CDEE; 
+h2::after {
+  content: '';
+  display: block;
+  width: 75%;
+  height: 1px;
+  background-color: #666666;
+  margin: 8px auto 0;
 }
 
-.dark .logo {
-    content: url('images/byui-logo_white.png'); 
+.statement-wrapper {
+  border: 1px solid #666666; 
+  padding: 50px; 
+  margin: 50px auto; 
+  width: 800px; 
+  background-color: #fff; 
+  text-align: left; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  max-width: 850px;
 }
+
+header.title h1 {
+  font-size: 38px; 
+  text-align: center;
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 1px; 
+}
+
+header.title h2 {
+  font-size: 18px;
+  font-weight: normal;
+  text-align: center;
+  color: #0056b3; 
+  margin: 5px 0 20px;
+  text-transform: uppercase;
+}
+
+header.title hr {
+  border: none;
+  border-top: 1px solid #fff;
+  width: 60%;
+  margin: 10px auto 20px;
+}
+
+.mission-statement {
+  font-size: 20px; 
+  margin: 0 auto;
+  text-align: left;
+  max-width: 600px; 
+}
+
+.mission-statement ol li {
+  margin: 10px 0;
+}
+
+.footer {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.footer img.logo {
+  max-width: 150px;
+  margin-top: 20px;
+}
+
+body.dark .logo {
+  content: url('images/byui-logo_white.png');
+}
+
+body.dark {
+  background-color: #222;
+  color: white;
+}
+
+body.dark h2 {
+  color: #99CDEE;
+}
+
+body.dark .statement-wrapper {
+  background-color: #333;
+  border-color: #555;
+}
+
+body.dark .footer img.logo {
+  filter: brightness(0) invert(1);
+}
+
+body.dark header.header {
+  background-color: #333;
+}
+
+body.dark #theme-selector {
+  background-color: #555;
+  color: white;
+  border: 1px solid #777;
+}
+
+
+
+
+
+
+
 
