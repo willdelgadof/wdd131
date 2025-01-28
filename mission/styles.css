@@ -13,9 +13,9 @@ h2::after {
   content: '';
   display: block;
   width: 75%;
-  height: 1px;
+  height: 0.5px;
   background-color: #666666;
-  margin: 8px auto 0;
+  margin: 0.5px auto 0;
 }
 
 .statement-wrapper {
@@ -29,21 +29,22 @@ h2::after {
   max-width: 850px;
 }
 
-header.title h1 {
+.title h1 {
   font-size: 38px; 
   text-align: center;
   margin: 0;
   text-transform: uppercase;
-  letter-spacing: 1px; 
+  letter-spacing: 2px; 
 }
 
-header.title h2 {
+.title h2 {
   font-size: 18px;
   font-weight: normal;
   text-align: center;
   color: #0056b3; 
   margin: 5px 0 20px;
   text-transform: uppercase;
+  letter-spacing: 2px;
 }
 
 header.title hr {
@@ -55,7 +56,7 @@ header.title hr {
 
 .mission-statement {
   font-size: 20px; 
-  margin: 0 auto;
+  margin: 40px auto;
   text-align: left;
   max-width: 600px; 
 }
@@ -64,12 +65,12 @@ header.title hr {
   margin: 10px 0;
 }
 
-.footer {
+.image {
   margin-top: 30px;
   text-align: center;
 }
 
-.footer img.logo {
+.image img.logo {
   max-width: 150px;
   margin-top: 20px;
 }
